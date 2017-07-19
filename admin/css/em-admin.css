@@ -1,0 +1,37 @@
+.wpp_header{
+	background-color: #232e35; padding-bottom: 6px;
+}
+.wpp_header h2{color: #FFFFFF !important;text-shadow:none; background-color:#21262c; border:1px solid #000000; padding:8px 6px; }
+.wrap div.updated, .wrap div.error, .media-upload-form div.error {
+margin: 5px 15px 0px !important;
+}
+.wpp_content{}
+.wpp_content th{
+	background-color: #232E35;
+	color: whiteSmoke !important;
+	text-shadow: none !important;
+}
+.wpp_content .form-table{ margin:0px !important;}
+.wpp_content tr td{ border-bottom:1px solid whitesmoke;}
+.wpp_footer{
+	background-color: #232e35;
+	padding: 20px 10px;
+	}
+.wpp_footer	.social{background-color:#21262c; border:1px solid #000000; display:block; float: left; padding: 3px; width: 200px;}
+.wpp_footer	.owner{ background-color:#21262c; border:1px solid #000000; display:block; float: right; padding: 3px;}
+.facebook,.twitter,.envato,.linkedin{ display:block; float:left; height:25px; width:25px; margin-left:4px;}
+.facebook{background-image:url(../images/facebook-icon.png); background-repeat:no-repeat;}
+.twitter{background-image:url(../images/twitter-icon.png); background-repeat:no-repeat;}
+.envato{ background-image:url(../images/logo_codecanyon.png); background-repeat:no-repeat;}
+.linkedin{background-image:url(../images/linkedin-icon.png); background-repeat:no-repeat;}
+.wpp_footer a{ color:#FFFFFF;  text-decoration:none;padding: 5px;}
+.wpp_footer a:hover{ color: #FF9900; }
+#link-color-example {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #dfdfdf;
+	margin: 0 7px 0 3px;
+	padding: 4px 14px;
+}
+.clr{clear:both;}

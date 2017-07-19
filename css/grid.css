@@ -1,0 +1,313 @@
+.em-read-more{ display:block;}
+.em_list_layout .em_auth_row{border-bottom:1px #eee solid; padding:5px 0px;}
+		.em_list_layout .em_avatar{float:left; margin-right:20px;}
+		.em_list_layout .em_author{float:left; margin-right:20px; line-height:32px;}
+		.em_list_layout .em_count{float:right;}
+		.em_list_layout .em_count span{ font-weight:bold; font-size:14px;}
+		.em_list_layout .em_count_inner{
+			display: block;
+			padding: 10px;
+			background-color: #CCC;
+			color: white;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+		}
+		.em_list_layout .em_social a{
+			float:left;
+			margin-right:2px;
+		 	background-repeat:no-repeat;
+			height:32px;
+			width:32px;
+		}
+		.em_list_layout .em_social a.fb{ background-image:url(../images/icons/facebook.png);}
+		.em_list_layout .em_social a.fb:hover{ background-image:url(../images/icons/facebook_hover.png);}
+		
+		.em_list_layout .em_social a.tw{ background-image:url(../images/icons/twitter.png);}
+		.em_list_layout .em_social a.tw:hover{ background-image:url(../images/icons/twitter_hover.png);}
+		
+		.em_list_layout .em_social a.gp{ background-image:url(../images/icons/google.png);}
+		.em_list_layout .em_social a.gp:hover{ background-image:url(../images/icons/google_hover.png);}
+		
+		.em_list_layout .em_social a.li{ background-image:url(../images/icons/linkedin.png);}
+		.em_list_layout .em_social a.li:hover{ background-image:url(../images/icons/linkedin_hover.png);}
+		
+		.em_list_layout .em_social a.pw{ background-image:url(../images/icons/pinterest.png);}
+		.em_list_layout .em_social a.pw:hover{ background-image:url(../images/icons/pinterest_hover.png);}
+		
+		.em_list_layout .em_social a.rs{ background-image:url(../images/icons/rss.png);}
+		.em_list_layout .em_social a.rs:hover{ background-image:url(../images/icons/rss_hover.png);}
+.em_grid_layout .em_auth_row {
+	border-bottom: 1px #eee solid;
+	padding: 5px 0px;
+	width: 200px;
+	margin: 2px;
+	float: left;
+	position:relative;
+	}
+		.em_grid_layout .em_author { 
+			position: absolute;
+			top: 122px;
+			left: 0px;
+			width: 100%; 
+			line-height: 23px;
+		}
+		.em_grid_layout .em_author h2 a,.em_grid_layout .em_grid_layout .em_count_inner { 
+		   color: white; 
+		   font: bold 16px/23px Helvetica, Sans-Serif; 
+		   letter-spacing: -1px;  
+		   background: rgb(0, 0, 0); /* fallback color */
+		   background: rgba(0, 0, 0, 0.7);
+		   padding: 10px; 
+		   text-decoration: none;
+		}
+		.em_grid_layout .bi_featured h2 span a.artist_link{ 
+		   padding-left: 25px;
+		}
+		.em_grid_layout .em_avatar{float:left; margin-right:20px; position:relative;}
+		.em_grid_layout .em_author2{float:left; margin-right:20px; line-height:32px;}
+		.em_grid_layout .em_count{position: absolute;top: 0;right: 0;}
+		.em_grid_layout .em_count_inner{
+			display: block;
+			padding: 10px;
+			background-color: rgb(78, 78, 78);
+			color: white;
+			height: 20px;
+			text-align: center;
+		}
+		.em_grid_layout .em_posts{
+			position: absolute;
+			right: -40px;
+			border: #ddd 1px solid;
+			top:0;
+			display:none;
+		}
+		.em_grid_layout .em_social a{
+			float:left;
+			margin-right:2px;
+		 	background-repeat:no-repeat;
+			height:32px;
+			width:32px;
+		}
+		.em_grid_layout .em_social a.fb{ background-image:url(../images/icons/facebook.png);}
+		.em_grid_layout .em_social a.fb:hover{ background-image:url(../images/icons/facebook_hover.png);}
+		
+		.em_grid_layout .em_social a.tw{ background-image:url(../images/icons/twitter.png);}
+		.em_grid_layout .em_social a.tw:hover{ background-image:url(../images/icons/twitter_hover.png);}
+		
+		.em_grid_layout .em_social a.gp{ background-image:url(../images/icons/google.png);}
+		.em_grid_layout .em_social a.gp:hover{ background-image:url(../images/icons/google_hover.png);}
+		
+		.em_grid_layout .em_social a.li{ background-image:url(../images/icons/linkedin.png);}
+		.em_grid_layout .em_social a.li:hover{ background-image:url(../images/icons/linkedin_hover.png);}
+		
+		.em_grid_layout .em_social a.pw{ background-image:url(../images/icons/pinterest.png);}
+		.em_grid_layout .em_social a.pw:hover{ background-image:url(../images/icons/pinterest_hover.png);}
+		
+		.em_grid_layout .em_social a.rs{ background-image:url(../images/icons/rss.png);}
+		.em_grid_layout .em_social a.rs:hover{ background-image:url(../images/icons/rss_hover.png);}
+		
+		.em_grid_layout .em_posts ul{margin:0;}
+		
+.em_minimal_layout{}
+		.em_minimal_layout .em_social a{
+			float:left;
+			margin-right:2px;
+		 	background-repeat:no-repeat;
+			height:32px;
+			width:32px;
+		}
+		.em_minimal_layout .em_auth_row{ margin-bottom:6px; border-bottom:1px solid;}
+		.em_minimal_layout .em_social{ margin:4px 0px;}
+		.em_minimal_layout .em_count,.em_minimal_layout .em_author{float:left; margin-right:10px;width: 35%;}
+		.em_minimal_layout .em_count span{ font-weight:bold; font-size:16px;}
+		.em_minimal_layout .em_count_inner{
+			display: block;
+			padding: 10px;
+			background-color: #CCC;
+			color: white;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+		}
+		.em_minimal_layout .em_social a.fb{ background-image:url(../images/icons/facebook.png);}
+		.em_minimal_layout .em_social a.fb:hover{ background-image:url(../images/icons/facebook_hover.png);}
+		
+		.em_minimal_layout .em_social a.tw{ background-image:url(../images/icons/twitter.png);}
+		.em_minimal_layout .em_social a.tw:hover{ background-image:url(../images/icons/twitter_hover.png);}
+		
+		.em_minimal_layout .em_social a.gp{ background-image:url(../images/icons/google.png);}
+		.em_minimal_layout .em_social a.gp:hover{ background-image:url(../images/icons/google_hover.png);}
+		
+		.em_minimal_layout .em_social a.li{ background-image:url(../images/icons/linkedin.png);}
+		.em_minimal_layout .em_social a.li:hover{ background-image:url(../images/icons/linkedin_hover.png);}
+		
+		.em_minimal_layout .em_social a.pw{ background-image:url(../images/icons/pinterest.png);}
+		.em_minimal_layout .em_social a.pw:hover{ background-image:url(../images/icons/pinterest_hover.png);}
+		
+		.em_minimal_layout .em_social a.rs{ background-image:url(../images/icons/rss.png);}
+		.em_minimal_layout .em_social a.rs:hover{ background-image:url(../images/icons/rss_hover.png);}
+.em_mini_layout{}
+	.em_mini_layout .em_auth_row{ float:left; display: inline-block; margin-right:2px;}
+		.em_mini_layout a{ display:block;}
+		.em_mini_layout .em_social{float:right;}
+		.em_mini_layout .em_count,.em_minimal_layout .em_author{float:left; width: 40%;}
+		.em_mini_layout .em_count span{ font-weight:bold; font-size:16px;}
+.em_clr{clear:both;}
+
+.em_compact{margin: 2.2em -35.6% 0 -35.4%;
+padding: 20px 35.4%; height:127px;}
+.em_compact img{margin:0px; padding:0px;}
+.em_compact h2,.em_compact h2 a,.em_standard h2,.em_standard h2 a{margin:0px !important; padding:0px !important; font-size:14px;}
+.em_compact .em_social{
+			float:left;
+		 	background-repeat:no-repeat;
+			width:32px;
+			margin-right: -78px;
+		}
+.em_compact .em_social a{
+			display:block;
+			height:32px;
+			width:32px;
+		}
+.em_compact .em_box{ float:left; padding:4px;margin-left: 31px;height:120px;}
+.em_compact .em_avatar{float: left;
+margin-right: -124px;}
+.em_compact .em_info{float: left;
+margin-left: 127px; }
+		.em_compact .em_social a.fb{ background-image:url(../images/icons/facebook.png);}
+		.em_compact .em_social a.fb:hover{ background-image:url(../images/icons/facebook_hover.png);}
+		
+		.em_compact .em_social a.tw{ background-image:url(../images/icons/twitter.png);}
+		.em_compact .em_social a.tw:hover{ background-image:url(../images/icons/twitter_hover.png);}
+		
+		.em_compact .em_social a.gp{ background-image:url(../images/icons/google.png);}
+		.em_compact .em_social a.gp:hover{ background-image:url(../images/icons/google_hover.png);}
+		
+		.em_compact .em_social a.li{ background-image:url(../images/icons/linkedin.png);}
+		.em_compact .em_social a.li:hover{ background-image:url(../images/icons/linkedin_hover.png);}
+		
+		.em_compact .em_social a.pw{ background-image:url(../images/icons/pinterest.png);}
+		.em_compact .em_social a.pw:hover{ background-image:url(../images/icons/pinterest_hover.png);}
+		
+		.em_compact .em_social a.rs{ background-image:url(../images/icons/rss.png);}
+		.em_compact .em_social a.rs:hover{ background-image:url(../images/icons/rss_hover.png);}
+
+.em_standard{
+margin: 2.2em -35.6% 0 -35.4%;
+padding: 20px 35.4%; 
+}
+.em_standard .em_avatar{ float:left; margin-right: -157px;}
+.em_standard .em_box{ float:left; margin-left: 157px;}
+
+		.em_standard .em_social a{
+			float:left;
+			margin-right:2px;
+		 	background-repeat:no-repeat;
+			height:32px;
+			width:32px;
+		}
+		.em_standard .em_social a.fb{ background-image:url(../images/icons/facebook.png);}
+		.em_standard .em_social a.fb:hover{ background-image:url(../images/icons/facebook_hover.png);}
+		
+		.em_standard .em_social a.tw{ background-image:url(../images/icons/twitter.png);}
+		.em_standard .em_social a.tw:hover{ background-image:url(../images/icons/twitter_hover.png);}
+		
+		.em_standard .em_social a.gp{ background-image:url(../images/icons/google.png);}
+		.em_standard .em_social a.gp:hover{ background-image:url(../images/icons/google_hover.png);}
+		
+		.em_standard .em_social a.li{ background-image:url(../images/icons/linkedin.png);}
+		.em_standard .em_social a.li:hover{ background-image:url(../images/icons/linkedin_hover.png);}
+		
+		.em_standard .em_social a.pw{ background-image:url(../images/icons/pinterest.png);}
+		.em_standard .em_social a.pw:hover{ background-image:url(../images/icons/pinterest_hover.png);}
+		
+		.em_standard .em_social a.rs{ background-image:url(../images/icons/rss.png);}
+		.em_standard .em_social a.rs:hover{ background-image:url(../images/icons/rss_hover.png);}
+		
+.em_gosocial .em_avatar{ float:left; margin-right: -157px;}
+.em_gosocial .em_box{ float:left; margin-left: 157px;}
+		.em_gosocial .em_info{ display:none;}
+		.em_gosocial .em_social a{
+			float:left;
+			margin-right:2px;
+			margin-bottom:2px;
+		 	background-repeat:no-repeat;
+			height:100px;
+			width:100px;
+	border:#f5f5f5 solid 5px;
+		}
+		.em_gosocial .em_social a.fb{ background-image:url(../images/icons-lg/facebook.png);}
+		.em_gosocial .em_social a.fb:hover{ background-image:url(../images/icons-lg/facebook_hover.png);}
+		
+		.em_gosocial .em_social a.tw{ background-image:url(../images/icons-lg/twitter.png);}
+		.em_gosocial .em_social a.tw:hover{ background-image:url(../images/icons-lg/twitter_hover.png);}
+		
+		.em_gosocial .em_social a.gp{ background-image:url(../images/icons-lg/google.png);}
+		.em_gosocial .em_social a.gp:hover{ background-image:url(../images/icons-lg/google_hover.png);}
+		
+		.em_gosocial .em_social a.li{ background-image:url(../images/icons-lg/linkedin.png);}
+		.em_gosocial .em_social a.li:hover{ background-image:url(../images/icons-lg/linkedin_hover.png);}
+		
+		.em_gosocial .em_social a.pw{ background-image:url(../images/icons-lg/pinterest.png);}
+		.em_gosocial .em_social a.pw:hover{ background-image:url(../images/icons-lg/pinterest_hover.png);}
+		
+		.em_gosocial .em_social a.rs{ background-image:url(../images/icons-lg/rss.png);}
+		.em_gosocial .em_social a.rs:hover{ background-image:url(../images/icons-lg/rss_hover.png);}
+.tipsy { font-size: 12px; position: absolute; padding: 5px; z-index: 100000; }
+  .tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #000; }
+  .tipsy-arrow-s { border-top-color: #000; }
+  .tipsy-arrow-e { border-left-color: #000; }
+  .tipsy-arrow-w { border-right-color: #000; }
+  
+	.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+  
+  
+#octagon {
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: relative;
+}
+
+#octagon:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 29px solid red;
+	border-left: 29px solid #eee;
+	border-right: 29px solid #eee;
+	width: 42px;
+	height: 0;
+}
+
+#octagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 29px solid red;
+	border-left: 29px solid #eee;
+	border-right: 29px solid #eee;
+	width: 42px;
+	height: 0;
+}
